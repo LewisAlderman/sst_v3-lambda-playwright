@@ -1,10 +1,12 @@
 {
-  "name": "@monorepo-template/functions",
+  "name": "@sst-pdf-lambda-demo/functions",
   "version": "0.0.0",
   "type": "module",
   "dependencies": {
-    "@monorepo-template/core": "*",
-    "sst": "*"
+    "@sparticuz/chromium": "^133.0.0",
+    "@sst-pdf-lambda-demo/core": "*",
+    "playwright": "^1.51.1",
+    "sst": "3.10.8"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8"

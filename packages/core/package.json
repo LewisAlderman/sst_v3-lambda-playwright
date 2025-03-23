@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo-template/core",
+  "name": "@sst-pdf-lambda-demo/core",
   "type": "module",
   "version": "0.0.0",
   "scripts": {
@@ -12,7 +12,7 @@
     ]
   },
   "dependencies": {
-    "sst": "*"
+    "sst": "3.10.8"
   },
   "devDependencies": {
     "vitest": "^2"

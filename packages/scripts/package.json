@@ -1,10 +1,10 @@
 {
-  "name": "@monorepo-template/scripts",
+  "name": "@sst-pdf-lambda-demo/scripts",
   "version": "0.0.0",
   "type": "module",
   "dependencies": {
-    "@monorepo-template/core": "*",
-    "sst": "*"
+    "@sst-pdf-lambda-demo/core": "*",
+    "sst": "3.10.8"
   },
   "scripts": {
     "shell": "sst shell tsx"

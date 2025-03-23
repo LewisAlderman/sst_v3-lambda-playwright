@@ -1,15 +1,19 @@
 {
-  "name": "monorepo-template",
+  "name": "sst-pdf-lambda-demo",
   "version": "0.0.0",
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {},
+  "scripts": {
+    "sso": "aws sso login --sso-session=lewis",
+    "dev": "sst dev --stage prod",
+    "deploy": "sst deploy --stage prod"
+  },
   "devDependencies": {
     "@tsconfig/node22": "^22",
     "typescript": "^5"
   },
   "dependencies": {
-    "sst": "^3"
+    "sst": "3.10.8"
   }
 }
